@@ -17,9 +17,7 @@ kali-tweaks: I have all distributions and all tools
 
 (this is not required..but what my current package is)
 ________________________
-notepad++
-
-download notepad++
+notepad++ download
 
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
 ----------
@@ -48,9 +46,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install virtualbox -y && sudo apt update 
 ~~~~~~~~
 ________________________
-android-x86-8.1-r6.iso (32bit) set up and install:
-
-download
+android x86 download
 
 https://www.fosshub.com/Android-x86-old.html?dwl=android-x86-8.1-r6.iso
 ------------
