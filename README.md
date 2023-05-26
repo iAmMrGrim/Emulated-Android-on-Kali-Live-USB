@@ -16,8 +16,7 @@ sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
 ________________________
 android x86 download
-
-https://www.fosshub.com/Android-x86-old.html?dwl=android-x86-8.1-r6.iso
+https://www.fosshub.com/Android-x86.html?dwl=android-x86_64-9.0-r2.iso
 ------------
 open console at /home/kali
 ~~~~
@@ -32,7 +31,7 @@ ISO image (default)
 
 type (other)
 
-version (other/unknown)
+version (other/unknown (64))
 
 create
 ________________________
@@ -48,7 +47,9 @@ add the android x86 iso (mount and restart)
 ________________________
 INSTALL ANDROID X86
 
-make a partition
+make a partition (n)(enter)
+
+gpt (no)
 
 new (enter)(enter)
 
