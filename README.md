@@ -30,18 +30,22 @@ ISO image (default)
 type (other)
 
 version (other/unknown)
+
+create
 ________________________
-pre allocate size [this will determine the memory size on the phone you emulate]
+pre allocate size (yes)   
+
+[the size you choose on this page determines the storage space the phone has and will take up part of the space on your usb drive]
 
 EFI mode (yes)
 ________________________
-start the machine 
+start Bitch Tits Bob
 
 add the android x86 iso (mount and restart)
 ________________________
-installing android x86:
+INSTALL ANDROID X86
 
-make a partition. 
+make a partition. (N)
 
 new (enter)(enter)
 
