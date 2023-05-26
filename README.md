@@ -23,21 +23,21 @@ virtualbox
 ____________________
 click new
 
-enter a name 
+name: Bitch Tits Bob
 
-ISO image (leave empty)
+ISO image (default)
 
-type (select other)
+type (other)
 
-version (select other/unknown)
+version (other/unknown)
 ________________________
 pre allocate size (this will determine the memory size on the phone you emulate)
 
-click EFI mode 
+EFI mode (yes)
 ________________________
-start the machine and it asks for iso file. 
+start the machine 
 
-add the download iso of android x86 and click (mount and restart)
+add the android x86 iso (mount and restart)
 ________________________
 installing android x86:
 
