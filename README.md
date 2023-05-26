@@ -1,12 +1,12 @@
 # Emulated-Android-on-Kali-Live-USB
 
 this is a fast easy way to emulate a full android on a kali live usb boot that has persistence added. it also includes adding notepad++
-
+notes and extra help is at the end of the page
+________________________
 another option is using a phone you own and running scrcpy  
-
 https://github.com/Genymobile/scrcpy
 ----------------
-____________________
+________________________
 notepad++ download
 
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
@@ -15,13 +15,7 @@ install wine
 ~~~~~~
 sudo winefile
 ~~~~~~
-run the two install files wine requires (note: just copy paste will not work)
-you have to add sudo at the start of the command and after the && where the second command begins
-
-open terminal in downloads and check to make sure you have the correct name of the file
-~~~~~
-ls
-~~~~~
+open terminal in downloads
 ~~~~~~
 sudo wine npp.8.5.3.Installer.x64.exe
 ~~~~~~
@@ -101,9 +95,13 @@ Any time i try to add my 2TB micro SD as internal storage the system freaks out.
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
 ________________________
 NOTES:
+________________________
+running the two install files wine requires (note: just copy paste will not work)
+
+you have to add sudo at the start of the command and after the && where the second command begins
 
 once you click this screen your mouse and keyboard are locked inside the virtualbox
-
+________________________
 to get controll of your mouse or keyboard outside of the virtualbox press 
 
 "Ctrl" button on the RIGHT side of the keyboard
