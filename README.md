@@ -1,5 +1,9 @@
 # Emulated-Android-on-Kali-Live-USB
 
+simple answer: run androidx86_32.iso
+
+the 64 is not the way
+
 this is a fast easy way to emulate a full android on a kali live usb boot that has persistence added. it also includes adding notepad++
 
 notes and extra help is at the end of the page
