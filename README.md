@@ -55,13 +55,11 @@ write (enter)
 
 exit (enter)
 ________________________
-format ext4 
+format (ext4)
 
 read/write (yes)
 ________________________
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
-
-
 
 ________________________
 BONUS:
