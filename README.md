@@ -45,7 +45,7 @@ add the android x86 iso (mount and restart)
 ________________________
 INSTALL ANDROID X86
 
-make a partition. (N)
+make a partition
 
 new (enter)(enter)
 
