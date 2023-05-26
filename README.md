@@ -4,10 +4,6 @@ this is a fast easy way to emulate a full android on a kali live usb boot that h
 
 notes and extra help is at the end of the page
 ________________________
-another option is using a phone you own and running scrcpy  
-https://github.com/Genymobile/scrcpy
-----------------
-________________________
 notepad++ download
 
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
@@ -97,6 +93,17 @@ the android is now set up and with persistence added if when you shut down you s
 ________________________
 NOTES:
 ________________________
+my setup is:
+
+laptop with no hard drive installed
+
+kali-everything live on 128 GB flash drive with persistence
+
+kali-tweaks: I have all distributions and all tools
+
+(this is not required..but what my current package is)
+________________________
+________________________
 running the two install files wine requires (note: just copy paste will not work)
 
 you have to add sudo at the start of the command and after the && where the second command begins
@@ -117,15 +124,9 @@ after fdroid updates the respoitories search in fdroid for neo   (neo store is t
 
 when neo store is downloaded then activate all the repositories in Neo Store and use that for your app store
 ________________________
-my setup is:
-
-laptop with no hard drive installed
-
-kali-everything live on 128 GB flash drive with persistence
-
-kali-tweaks: I have all distributions and all tools
-
-(this is not required..but what my current package is)
+another option is using a phone you own and running scrcpy  
+https://github.com/Genymobile/scrcpy
+----------------
 ________________________
 hack the world
 ________________________
@@ -133,3 +134,4 @@ donations can go two ways. check out my site for wholesale electric scooters.. a
 
 https://easy-flow-riders.square.site
 ----------------
+
