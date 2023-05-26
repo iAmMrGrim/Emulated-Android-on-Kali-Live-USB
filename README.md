@@ -16,6 +16,7 @@ sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
 ________________________
 android x86 download
+
 https://www.fosshub.com/Android-x86.html?dwl=android-x86_64-9.0-r2.iso
 ------------
 open console at /home/kali
