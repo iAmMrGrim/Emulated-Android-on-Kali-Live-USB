@@ -21,8 +21,14 @@ sudo apt update && sudo apt upgrade -y
 ________________________
 android x86 download (32 bit)
 
+old version (faster)
+https://osdn.net/projects/android-x86/downloads/69704/android-x86-8.1-r6.iso/
+------------
+
+new version (slower)
 https://www.fosshub.com/Android-x86.html?dwl=android-x86-9.0-r2.iso
 ------------
+
 open console at /home/kali
 ~~~~
 virtualbox
