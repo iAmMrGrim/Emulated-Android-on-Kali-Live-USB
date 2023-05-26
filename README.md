@@ -15,9 +15,9 @@ sudo apt install virtualbox -y
 sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
 ________________________
-android x86 download
+android x86 download (32 bit)
 
-https://www.fosshub.com/Android-x86.html?dwl=android-x86_64-9.0-r2.iso
+https://www.fosshub.com/Android-x86.html?dwl=android-x86-9.0-r2.iso
 ------------
 open console at /home/kali
 ~~~~
