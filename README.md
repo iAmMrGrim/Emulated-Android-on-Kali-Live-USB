@@ -25,12 +25,12 @@ old version (faster)
 
 https://osdn.net/projects/android-x86/downloads/69704/android-x86-8.1-r6.iso/
 ------------
-
+________________________
 new version (slower)
 
 https://www.fosshub.com/Android-x86.html?dwl=android-x86-9.0-r2.iso
 ------------
-
+________________________
 open console at /home/kali
 ~~~~
 virtualbox
