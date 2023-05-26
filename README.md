@@ -1,6 +1,7 @@
 # Emulated-Android-on-Kali-Live-USB
 
 this is a fast easy way to emulate a full android on a kali live usb boot that has persistence added. it also includes adding notepad++
+
 notes and extra help is at the end of the page
 ________________________
 another option is using a phone you own and running scrcpy  
