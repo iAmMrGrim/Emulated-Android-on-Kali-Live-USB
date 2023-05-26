@@ -4,41 +4,44 @@ this is a fast easy way to emulate a full android on a kali live usb boot that h
 
 another option is using a phone you own and running scrcpy  
 
+https://github.com/Genymobile/scrcpy
+----------------
+
 my setup is:
 
 a laptop with no hard drive installed
 
 kali-everything live on 128 GB flash drive with persistence
 
-kali-tweaks:
-i have all distributions and all tools
+kali-tweaks: I have all distributions and all tools
 
 this is not required..but what my current package is
-
 ________________________
-start with notepad++
+
+notepad++
 ~~~~~~
 sudo winefile
 ~~~~~~
-then ran the two install files requires (note you have to add sudo at the statrt of the list and after the &&) just copy paste will not work
+run the two install files requires 
 
-then i downloaded notepad++
+(note: just copy paste will not work)
+you have to add sudo at the start of the command and after the && where the second command begins
+
+download notepad++
 
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
 ---------
 
-open terminal in downloads and i check to make sure i have the correct name of the file
+open terminal in downloads and check to make sure you have the correct name of the file
 ~~~~~
 ls
 ~~~~~
 ~~~~~~
 sudo wine npp.8.5.3.Installer.x64.exe
 ~~~~~~
-install and the file is left in the root folder
+install and the file is left in the root folder (making a link to it and putting it on your desktop is helpful)
 ________________________
-
-next virtualbox:
-
+virtualbox:
 ~~~~~~~~
 sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
@@ -47,11 +50,9 @@ sudo apt install virtualbox -y && sudo apt update
 ~~~~~~~~
 ________________________
 
-next setting up the android phone
+android-x86-8.1-r6.iso (32bit) set up and install:
 
-android-x86-8.1-r6.iso (32bit)
-
-from 
+download
 
 https://www.fosshub.com/Android-x86-old.html?dwl=android-x86-8.1-r6.iso
 ------------
@@ -60,15 +61,18 @@ open console at /home/kali
 ~~~~
 virtualbox
 ~~~~
-(dont run this with sudo because it will make a second file in the root and cause problems)
+(do not run this with sudo because it will make a second file in the root and cause problems)
 
 a screen will appear
+____________________
 
-once in this screen your mouse and keyboard are locked inside the virtualbox
+once you click this screen your mouse and keyboard are locked inside the virtualbox
 
-to get controll of your mouse or keyboard outside of the virtualbox press the "Ctrl" button on the RIGHT side of the keyboard
+to get controll of your mouse or keyboard outside of the virtualbox press 
 
+"Ctrl" button on the RIGHT side of the keyboard
 ________________________
+
 click new
 
 enter a name 
