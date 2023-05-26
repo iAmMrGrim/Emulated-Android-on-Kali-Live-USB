@@ -9,7 +9,10 @@ virtualbox:
 sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
 ~~~~~~~~
-sudo apt install virtualbox -y && sudo apt update 
+sudo apt install virtualbox -y 
+~~~~~~~~
+~~~~~~~~
+sudo apt update && sudo apt upgrade -y
 ~~~~~~~~
 ________________________
 android x86 download
