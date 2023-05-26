@@ -20,8 +20,6 @@ open console at /home/kali
 ~~~~
 virtualbox
 ~~~~
-(do not run this with sudo because it will make a second file in the root and cause problems)
-
 a screen will appear
 ____________________
 click new
@@ -104,6 +102,11 @@ kali-everything live on 128 GB flash drive with persistence
 kali-tweaks: I have all distributions and all tools
 
 (this is not required..but what my current package is)
+________________________
+~~~~
+virtualbox
+~~~~
+(do not run this with sudo because it will make a second file in the root and cause problems)
 ________________________
 running the two install files wine requires (note: just copy paste will not work)
 
