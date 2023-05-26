@@ -60,21 +60,33 @@ a screen will appear
 once in this screen your mouse and keyboard are locked inside the virtualbox
 to get controll of your mouse or keyboard outside of the virtualbox press the "Ctrl" button on the RIGHT side of the keyboard
 
+________________________
 click new
 enter a name 
 ISO image (leave empty)
 type (select other)
 version (select other/unknown)
+________________________
 
+
+
+________________________
 pre allocate what ever size you want
 i just did 20GB and click EFI mode
+________________________
 
+
+
+________________________
 start the machine and it asks for iso file. 
 
 add the download iso of android x86 and click (mount and restart)
 
 install android x86 
+________________________
 
+
+________________________
 you will need to make a partition.
 
 (this is confusing because it says your making a parition at /dev/sda1 [not the case] what it is doing is making a partition at /virtualbox/dev/sda1 pm the virtual hard drive we made in the previous step)
@@ -83,22 +95,32 @@ click new and the size it is defaulted at is correct.
 select bootable and press enter so the partition is bootable
 select write 
 then exit
+________________________
 
+
+
+________________________
 format ext4 and select yes for read/write for a rooted phone
 
 it takes a short time to install and asks if you want to boot.
+________________________
 
+
+________________________
 when it boots. you can skip the set up 
 there are two default options for the home screen (I prefer the top option)
 
 open the phone options tab and find android x86 and select the 2 options that are not activated
 
 then you can turn on wifi and finish setup how ever you decide
+________________________
 
+
+________________________
 you can also plug in a micro sd card at this point and format it for extra storage...i sugest adding as portable storage and not internal... any time i try to add my 2TB micro SD as internal storage the system freaks out. 
 
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
-
+________________________
 
 
 some extra notes:
