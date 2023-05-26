@@ -4,21 +4,6 @@ this is a fast easy way to emulate a full android on a kali live usb boot that h
 
 notes and extra help is at the end of the page
 ________________________
-notepad++ download
-
-https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
-----------
-install wine 
-~~~~~~
-sudo winefile
-~~~~~~
-open terminal in downloads
-~~~~~~
-sudo wine npp.8.5.3.Installer.x64.exe
-~~~~~~
-the installed file is left in the /root folder (making a link to it and putting it on your desktop is helpful)
-________________________
-
 virtualbox:
 ~~~~~~~~
 sudo apt update && sudo apt upgrade -y
@@ -90,6 +75,23 @@ I sugest adding as portable storage and not internal...
 Any time i try to add my 2TB micro SD as internal storage the system freaks out. 
 
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
+
+BONUS:
+________________________
+notepad++ download
+
+https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
+----------
+install wine 
+~~~~~~
+sudo winefile
+~~~~~~
+open terminal in downloads
+~~~~~~
+sudo wine npp.8.5.3.Installer.x64.exe
+~~~~~~
+the installed file is left in the /root folder (making a link to it and putting it on your desktop is helpful)
+
 ________________________
 NOTES:
 ________________________
@@ -102,7 +104,6 @@ kali-everything live on 128 GB flash drive with persistence
 kali-tweaks: I have all distributions and all tools
 
 (this is not required..but what my current package is)
-________________________
 ________________________
 running the two install files wine requires (note: just copy paste will not work)
 
