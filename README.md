@@ -6,17 +6,7 @@ another option is using a phone you own and running scrcpy
 
 https://github.com/Genymobile/scrcpy
 ----------------
-______________________
-my setup is:
-
-laptop with no hard drive installed
-
-kali-everything live on 128 GB flash drive with persistence
-
-kali-tweaks: I have all distributions and all tools
-
-(this is not required..but what my current package is)
-________________________
+____________________
 notepad++ download
 
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe
@@ -128,13 +118,19 @@ when searching in these app stores keep it simple with 1 word or a few letters a
 after fdroid updates the respoitories search in fdroid for neo   (neo store is the one to select)
 
 when neo store is downloaded then activate all the repositories in Neo Store and use that for your app store
+________________________
+my setup is:
 
+laptop with no hard drive installed
 
+kali-everything live on 128 GB flash drive with persistence
 
+kali-tweaks: I have all distributions and all tools
 
-_________________
+(this is not required..but what my current package is)
+
 hack the world
-_________________
+________________________
 donations can go two ways. check out my site for wholesale electric scooters.. and such
 
 https://easy-flow-riders.square.site
