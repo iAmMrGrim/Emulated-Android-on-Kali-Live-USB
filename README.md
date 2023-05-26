@@ -1,8 +1,6 @@
 # Emulated-Android-on-Kali-Live-USB
 this is a fast easy way to emulate a full android on a kali live usb boot that has persistence added. it also includes adding notepad++
 
-This is a set up for being able to test malware with a live android on your kali linux usb (with persistence) i also have notepad ++ installed with wine for edits
-
 another option is using a phone you own and running scrcpy  
 
 my setup is:
