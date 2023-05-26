@@ -32,7 +32,7 @@ ISO image (default)
 
 type (other)
 
-version (other/unknown (64))
+version (other/unknown)
 
 create
 ________________________
