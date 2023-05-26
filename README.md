@@ -31,7 +31,7 @@ type (other)
 
 version (other/unknown)
 ________________________
-pre allocate size (this will determine the memory size on the phone you emulate)
+pre allocate size [this will determine the memory size on the phone you emulate]
 
 EFI mode (yes)
 ________________________
