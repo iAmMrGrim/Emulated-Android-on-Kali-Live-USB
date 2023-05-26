@@ -9,12 +9,14 @@ a laptop with no hard drive installed
 kali-everything live on 128 GB flash drive with persistence
 
 kali-tweaks:
-i have all distributions
-i have all tools
-this is not all required..but what my current package is
+i have all distributions and all tools
+
+this is not required..but what my current package is
 
 i ran
-sudo winefile (also not positive this is required but i do it for access to notepad ++)
+~~~~~~
+sudo winefile
+~~~~~~
 then ran the two install files requires (note you have to add sudo at the statrt of the list and after the &&) just copy paste will not work
 
 then i downloaded notepad++
