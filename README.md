@@ -13,14 +13,12 @@ sudo apt install virtualbox -y && sudo apt update
 ~~~~~~~~
 ________________________
 android x86 download
-
 https://www.fosshub.com/Android-x86-old.html?dwl=android-x86-8.1-r6.iso
 ------------
 open console at /home/kali
 ~~~~
 virtualbox
 ~~~~
-a screen will appear
 ____________________
 click new
 
@@ -32,19 +30,17 @@ type (select other)
 
 version (select other/unknown)
 ________________________
-pre allocate what ever size you want
+pre allocate size (this will determine the memory size on the phone you emulate)
 
-i just did 20GB and click EFI mode
+click EFI mode 
 ________________________
 start the machine and it asks for iso file. 
 
 add the download iso of android x86 and click (mount and restart)
-
-install android x86 
 ________________________
-you will need to make a partition.
+install android x86 
 
-(this is confusing because it says your making a parition at /dev/sda1 [not the case] what it is doing is making a partition at /virtualbox/dev/sda1 pm the virtual hard drive we made in the previous step)
+you will need to make a partition. 
 
 click new and the size it is defaulted at is correct. 
 
@@ -108,12 +104,12 @@ virtualbox
 ~~~~
 (do not run this with sudo because it will make a second file in the root and cause problems)
 ________________________
-running the two install files wine requires (note: just copy paste will not work)
+when making the partition cfdisk says you are making the partition at /dev/sda1 but this is not correct.
 
-you have to add sudo at the start of the command and after the && where the second command begins
-
-once you click this screen your mouse and keyboard are locked inside the virtualbox
+the partition is being made at /virtualbox/dev/sda1 on the new virtual hard drive we created
 ________________________
+once you click the virtualbox screen your mouse and keyboard are locked inside the virtualbox
+
 to get controll of your mouse or keyboard outside of the virtualbox press 
 
 "Ctrl" button on the RIGHT side of the keyboard
@@ -127,6 +123,12 @@ when searching in these app stores keep it simple with 1 word or a few letters a
 after fdroid updates the respoitories search in fdroid for neo   (neo store is the one to select)
 
 when neo store is downloaded then activate all the repositories in Neo Store and use that for your app store
+________________________
+wine 
+
+running the two install files wine requires (note: just copy paste will not work)
+
+you have to add sudo at the start of the command and after the && where the second command begins
 ________________________
 another option is using a phone you own and running scrcpy  
 https://github.com/Genymobile/scrcpy
