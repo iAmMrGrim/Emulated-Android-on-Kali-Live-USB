@@ -48,13 +48,6 @@ virtualbox
 
 a screen will appear
 ____________________
-
-once you click this screen your mouse and keyboard are locked inside the virtualbox
-
-to get controll of your mouse or keyboard outside of the virtualbox press 
-
-"Ctrl" button on the RIGHT side of the keyboard
-________________________
 click new
 
 enter a name 
@@ -107,10 +100,16 @@ Any time i try to add my 2TB micro SD as internal storage the system freaks out.
 
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
 ________________________
-some extra notes:
+NOTES:
 
+once you click this screen your mouse and keyboard are locked inside the virtualbox
+
+to get controll of your mouse or keyboard outside of the virtualbox press 
+
+"Ctrl" button on the RIGHT side of the keyboard
+________________________
 when clicking things in the settings .. click the words next to the slide button and not the button it self
-
+________________________
 download fdroid from chrome and activate all repository
 
 when searching in these app stores keep it simple with 1 word or a few letters and dont use spaces
@@ -128,7 +127,7 @@ kali-everything live on 128 GB flash drive with persistence
 kali-tweaks: I have all distributions and all tools
 
 (this is not required..but what my current package is)
-
+________________________
 hack the world
 ________________________
 donations can go two ways. check out my site for wholesale electric scooters.. and such
