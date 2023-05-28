@@ -11,6 +11,8 @@ notes and extra help is at the end of the page
 boot into kali live with out persistence and shrink your persistence file to make room for the android x86 partition gparted works fine afterward format the new space as ext4
 
 when you make your virtual machine with virtualbox change the file location to the new partition
+
+if you run it on its own partition it will work better and you can install it as root
 ________________________
 virtualbox:
 ~~~~~~~~
