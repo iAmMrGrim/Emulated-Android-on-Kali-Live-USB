@@ -105,19 +105,22 @@ install the termux stuff and the stuff in the catagory with the nethunter instal
 
 load into termux and run
 
+
 ~~~~~~~~~~~~
 pkg up -y
 ~~~~~~~~~~~~
-~~~~~~~~~~~~~
+~~~~~~~~~~~~
 pkg install root-repo
+~~~~~~~~~~~~
 ~~~~~~~~~~~~
 pkg install x11-repo
 ~~~~~~~~~~~~
 ~~~~~~~~~~~~
 termux-setup-storage
 ~~~~~~~~~~~~
+~~~~~~~~~~~~
 termux-wake-lock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 follow the instructions to set up the rootfs in nethunter terminal
 
