@@ -8,11 +8,6 @@ this is a fast easy way to emulate a full android on a kali live usb boot that h
 
 notes and extra help is at the end of the page
 
-boot into kali live with out persistence and shrink your persistence file to make room for the android x86 partition gparted works fine afterward format the new space as ext4
-
-when you make your virtual machine with virtualbox change the file location to the new partition
-
-if you run it on its own partition it will work better and you can install it as root
 ________________________
 virtualbox:
 ~~~~~~~~
@@ -83,6 +78,48 @@ format (ext4)
 read/write (yes)
 ________________________
 the android is now set up and with persistence added if when you shut down you select the top option of the 3 listed
+
+________________________
+Turning that into nethunter
+
+turn on extensions
+~~~~~~~~~~~~~~~~~~
+sudo apt install -y --reinstall virtualbox-guest-x11
+~~~~~~~~~~~~~~~~~~~
+The nethunter app download
+
+https://store.nethunter.com/NetHunterStore.apk
+-----------------------
+
+this is not a speedy process. any time the emulator is acting up reboot into kali live with out persistence and run 
+
+~~~~~~~~~~~~~~~~~~~~
+sudo fsck /dev/sdc3
+~~~~~~~~~~~~~~~~~~~~
+
+then when you re boot into android run the updater instead of loading into the phone (or debug)
+
+in the nethunter app switch to catagories. DONT INSTALL PRIVILEGED EXTENSIONS...
+
+install the termux stuff and the stuff in the catagory with the nethunter install.. open them as you install them and set up each one. 
+
+load into termux and run
+
+~~~~~~~~~~~~
+pkg up -y
+~~~~~~~~~~~~
+~~~~~~~~~~~~~
+pkg install root-repo
+~~~~~~~~~~~~
+pkg install x11-repo
+~~~~~~~~~~~~
+~~~~~~~~~~~~
+termux-setup-storage
+~~~~~~~~~~~~
+termux-wake-lock
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+follow the instructions to set up the rootfs in nethunter terminal
 
 ________________________
 BONUS:
